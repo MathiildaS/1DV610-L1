@@ -7,4 +7,9 @@
 
 import { countVowelsConsonants } from "./count";
 
-document.addEventListener
+let enteredName = document.getElementById('userInput')
+let enterBtn = document.getElementById('enterBtn')
+
+enterBtn.addEventListener("click", () => {
+
+})
