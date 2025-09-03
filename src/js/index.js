@@ -9,7 +9,12 @@ import { countVowelsConsonants } from "./count";
 
 let enteredName = document.getElementById('userInput')
 let enterBtn = document.getElementById('enterBtn')
+let vowels = document.getElementById('vowels')
+let consonants = document.getElementById('consonants')
 
 enterBtn.addEventListener("click", () => {
+const countedName = countVowelsConsonants(enteredName.value)
 
+vowels.textContent = countedName.vowels
+consonants.textContent = countedName.consonants
 })
