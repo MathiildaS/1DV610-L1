@@ -6,3 +6,5 @@
  */
 
 import { countVowelsConsonants } from "./count";
+
+document.addEventListener
