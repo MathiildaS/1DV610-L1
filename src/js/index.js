@@ -21,3 +21,8 @@ consonants.textContent = countedName.consonants
 document.getElementById("userName").textContent = enteredName.value;
 document.getElementById("greeting").style.display = "block";
 })
+
+document.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    enterBtn.click()
+}})
