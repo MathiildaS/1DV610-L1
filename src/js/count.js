@@ -5,11 +5,12 @@
  * @version 1.0.0
  */
 
-export function countVowelsConsonants (name) {
+export function countVowelsConsonants (inputName) {
   let vowels = 0
   let consonants = 0
+  let name = inputName.toLowerCase().replace(/[^a-zåäö]/g, "")
 
-  let arrOfVowels = ['a', 'e', 'i', 'o', 'u', 'å', 'ä', 'ö']
+  let arrOfVowels = ['a', 'e', 'i', 'o', 'u', 'y', 'å', 'ä', 'ö']
 
   for (let i = 0; i < name.length; i++) {
     if (arrOfVowels.includes(name[i])) {

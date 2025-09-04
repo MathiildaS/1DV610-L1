@@ -5,7 +5,7 @@
  * @version 1.0.0
  */
 
-import { countVowelsConsonants } from "./count";
+import { countVowelsConsonants } from "./count.js";
 
 let enteredName = document.getElementById('userInput')
 let enterBtn = document.getElementById('enterBtn')
