@@ -17,4 +17,7 @@ const countedName = countVowelsConsonants(enteredName.value)
 
 vowels.textContent = countedName.vowels
 consonants.textContent = countedName.consonants
+
+document.getElementById("userName").textContent = enteredName.value;
+document.getElementById("greeting").style.display = "block";
 })
